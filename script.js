@@ -14,9 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
     playAudio();
   });
 
-  // Automatically play the song when the page loads
-  playAudio();
-
   // Carousel controls
   document.getElementById('next').onclick = function() {
     let lists = document.querySelectorAll('.item');
