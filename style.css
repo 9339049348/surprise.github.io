@@ -132,3 +132,15 @@ body{
 #next{
   font-size: 25px;
 }
+
+.audio-player{
+  position: absolute;
+  left:50%;
+  top:110%;
+  transform: translate(-50%,0%);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0 20px;
+}
